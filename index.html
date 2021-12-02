@@ -23,64 +23,35 @@
 
         <main class="content page__content">
             <section class="starred section content__section">
-                <!-- <template> -->
+            <template id="starred-template">
                 <p class="starred__sentence">
                     1. starred__sentence
                 </p>
-                <p class="starred__sentence">
-                    2. starred__sentence
-                </p>
-                <p class="starred__sentence">
-                    3. starred__sentence
-                </p>
-                <!-- </template>  -->
+            </template> 
             </section>
-            <section class="words section content__section">
-                <article class="word">
-                    <h2 class="word__title">
-                        word__title
-                    </h2>
-                    <p class="word__explanation">
-                        word__explanation
-                    </p>
-                    <ul class="word__list">
-                        <li class="word__sentence">sentence 1</li>
-                        <li class="word__sentence">2 </li>
-                        <li class="word__sentence">TEST</li>
-                        <li class="word__sentence">hello world</li>
-                        <li class="word__sentence">word__sentence</li>
-                    </ul>
-                </article>
-                <article class="word">
-                    <h2 class="word__title">
-                        word__title
-                    </h2>
-                    <p class="word__explanation">
-                        word__explanation
-                    </p>
-                    <ul class="word__list">
-                        <li class="word__sentence">sentence 1</li>
-                        <li class="word__sentence">2 </li>
-                        <li class="word__sentence">TEST</li>
-                        <li class="word__sentence">hello world</li>
-                        <li class="word__sentence">word__sentence</li>
-                    </ul>
-                </article>
-                <article class="word">
-                    <h2 class="word__title">
-                        word__title
-                    </h2>
-                    <p class="word__explanation">
-                        word__explanation
-                    </p>
-                    <ul class="word__list">
-                        <li class="word__sentence">sentence 1</li>
-                        <li class="word__sentence">2 </li>
-                        <li class="word__sentence">TEST</li>
-                        <li class="word__sentence">hello world</li>
-                        <li class="word__sentence">word__sentence</li>
-                    </ul>
-                </article>
+            <section class="cards section content__section">
+                <template id="card-template">
+                    <article class="card">
+                        <h2 class="card__title">
+                            word__title
+                        </h2>
+                        <p class="card__explanation">
+                            word__explanation
+                        </p>
+                        <ul class="card__list">
+                            <li class="card__sentence">sentence 1</li>
+                            <li class="card__sentence">2 </li>
+                            <li class="card__sentence">TEST</li>
+                            <li class="card__sentence">hello world</li>
+                            <li class="card__sentence">word__sentence</li>
+                        </ul>
+                    </article>
+                </template>
+            </section>
+            <section class="load-file section content__section">
+                <input class="load-file__input" type="file" name="load-file__input_name" id="load-file__input_id" />
+                <textarea class="load-file__textarea" name="load-file__textarea_name" id="load-file__textarea_id"
+                    cols="30" rows="20"></textarea>
             </section>
         </main>
 

@@ -1,47 +1,3 @@
-# Уже выбрал неизвестные слова для анки
-Алгоритм: записать кол-во строк в начале занятия, после занятия записать кол-во строк минус кол-во предложений, которые я выбрал). Например: было 2217, стало 1640, выбрал 40 предложений, итого 2217 - 1640 - 40 = 537
-День 1:Убрал 537 строк за 30 минут.
-
-
-The females stay close to their young.
-Young in the nest may compete for food.
-I was shaking as I took the stage.
-The company is having to lay off workers in the face of stiff competition.
-The government said the new laws would enhance competition among banks.
-The president wants to increase discretionary spending by 4 per cent.
-This government wants to keep a tight rein on public spending.
-The team events will take place later this week.
-The 800 metres is the fourth event of the afternoon.
-We were at a distinct disadvantage compared with children from richer families.
-She has had a lasting impact on the lives of many of her students.
-The little girl was writing her name with painstaking care.
-He is still engaged in a bitter fight with his old company.
-The workers are determined to put up a fight (= to fight hard) to save their jobs.
-Male and female adults mate, the female lays eggs, and the cycle begins all over again.
-Front runners generally establish themselves early in the election cycle.
-There was no point appealing to her better nature.
-We appealed to his better nature (= his kindness).
-I spotted a gap in the cars and went for it.
-Position the tiles, leaving a narrow gap between the edges.
-The only way to close this gap is to innovate.
-the unbridgeable gap between the two cultures
-A jumble sale will be held in the village hall on Saturday.
-Use the whites of two eggs.
-Whisk the egg whites until stiff.
-We got lost and ended up miles away from our intended destination.
-Our luggage was checked all the way through to our final destination.
-She made a rare guest appearance on the programme.
-Tables were set out in the embassy's beautiful reception room.
-She's undergone a complete character change since her promotion.
-She, too, was a determined character and was not going to give up that easily.
-Adventure camps are considered to be character-building (= meant to improve somebody's strong qualities).
-Everyone admires her strength of character and determination.
-His face has character - I'll say that for it.
-The company lost $7 million this quarter in contrast to a profit of $6.2 million a year earlier.
-The rainfall has been above normal for the time of year.
-After a week of festivities, life returned to normal.
-He dismissed the idea with a firm shake of his head (= turning it from side to side to mean 'no').
-On the walls I applied the same technique as I had used for the ceiling.
 
 cost(noun)
   the effort, loss or damage that is involved in order to do or achieve something
@@ -50,7 +6,6 @@ cost(noun)
     They advanced a few hundred metres, but at a heavy cost in life.
     He worked non-stop for three months, at considerable cost to his health.
     the terrible cost of the war in death and suffering
-get_examples_by_word("cost", "noun", "b1")
 
 rubbish(noun)
   something that you think is of poor quality
@@ -65,7 +20,6 @@ rubbish(noun)
     You're talking a load of rubbish.
     Then we were told a lot of rubbish about 'leadership' and 'bonding'.
     It's not rubbish - it's true!
-get_examples_by_word("rubbish", "noun", "b1")
 
 paper(noun)
   an academic article about a particular subject that is written by and for specialists
@@ -74,7 +28,6 @@ paper(noun)
     He had prepared a briefing paper for the board meeting.
     Some of the materials cited in this paper are no longer available online.
     She has presented papers at international conferences.
-get_examples_by_word("paper", "noun", "b1")
 
 entertainment(noun)
   films, music, etc. used to entertain people; an example of this
@@ -83,7 +36,6 @@ entertainment(noun)
     There will be live entertainment at the party.
     It was not something you would watch for light entertainment.
     radio, television and other forms of entertainment
-get_examples_by_word("entertainment", "noun", "b1")
 
 prediction(noun)
   a statement that says what you think will happen; the act of making such a statement
@@ -92,7 +44,6 @@ prediction(noun)
     It turned out my prediction was right.
     Six hundred workers there lost their jobs today, amid gloomy predictions that there could be worse to come.
     Their prediction of fifty million visitors turned out to be optimistic.
-get_examples_by_word("prediction", "noun", "b1")
 
 standard(noun)
   a level of quality, especially one that people think is acceptable
@@ -107,7 +58,6 @@ standard(noun)
     It wasn't early by her standards.
     One theory says that women are having to prove themselves above normal standards set for men.
     The journey was remarkably quick by any standards.
-get_examples_by_word("standard", "noun", "b1")
 
 campus(noun)
   the buildings of a university or college and the land around them
@@ -116,7 +66,6 @@ campus(noun)
     The number of graduate students living off campus has dropped.
     Students at the main campus have heeded the call to boycott lectures.
     campus life
-get_examples_by_word("campus", "noun", "b1")
 
 impression(noun)
   an idea, a feeling or an opinion that you get about somebody/something, or that somebody/something gives you
@@ -130,7 +79,6 @@ impression(noun)
     My words made no impression on her.
     His trip to India made a strong impression on him.
     The whole business left a lasting impression on Margaret.
-get_examples_by_word("impression", "noun", "b1")
 
 report(noun)
   a story or piece of information that may or may not be true
@@ -142,7 +90,6 @@ report(noun)
   a written statement about a student’s work at school, college, etc.
     to get a good/bad report
     She got a better report card this time.
-get_examples_by_word("report", "noun", "b1")
 
 image(noun)
   a mental picture that you have of what somebody/something is like or looks like
@@ -151,7 +98,6 @@ image(noun)
     I had a mental image of what she would look like.
     The history books built up a false image of an unpopular president.
     He started to recall images from his past.
-get_examples_by_word("image", "noun", "b1")
 
 cottage(noun)
   a small house, especially in the country
@@ -160,7 +106,7 @@ cottage(noun)
     We stayed in a cottage on a farm.
     It was her dream to have a little cottage in the country
     James lived in a charming country cottage with roses around the door.
-get_examples_by_word("cottage", "noun", "b1")
+
 appointment(noun)
   a formal arrangement to meet or visit somebody at a particular time, especially for a reason connected with their work
     She made an appointment for her son to see the doctor.
@@ -168,7 +114,6 @@ appointment(noun)
     Tom has been given an appointment at the local hospital.
     Do you have an appointment?
     He called without an appointment.
-get_examples_by_word("appointment", "noun", "b1")
 
 respect(noun)
   a strong feeling of approval of somebody/something because of their good qualities or achievements
@@ -183,7 +128,6 @@ respect(noun)
     He has no respect for her feelings.
     Work experience gives students a healthy respect for what it takes to earn a living.
     Everyone has a right to be treated with respect.
-get_examples_by_word("respect", "noun", "b1")
 
 series(noun)
   several events or things of a similar kind that happen one after the other
@@ -192,7 +136,6 @@ series(noun)
     The two sides held a series of meetings in the summer.
     the final book in the series
     She wrote a whole series of novels between 1985 and 2005.
-get_examples_by_word("series", "noun", "b1")
 
 tip(noun)
   a small amount of extra money that you give to somebody, for example somebody who serves you in a restaurant
@@ -201,7 +144,6 @@ tip(noun)
     Are we supposed to leave a tip?
     Someone put a dollar in the tip jar.
     He gave the waiter a generous tip.
-get_examples_by_word("tip", "noun", "b1")
 
 sample(noun)
   a number of people or things taken from a larger group and used in tests to provide information about the group
@@ -210,7 +152,6 @@ sample(noun)
     We studied a large population sample.
     The interviews were given to a random sample of students.
     The research was based on samples from 29 populations.
-get_examples_by_word("sample", "noun", "b1")
 
 emergency(noun)
   a sudden serious and dangerous event or situation that needs immediate action to deal with it
@@ -219,7 +160,6 @@ emergency(noun)
     Don't call me unless its a real emergency.
     I need to know what to do in an emergency.
     Would you know what to do in an emergency situation?
-get_examples_by_word("emergency", "noun", "b1")
 
 heating(noun)
   the process of supplying heat to a room or building; a system used to do this
@@ -228,7 +168,7 @@ heating(noun)
     Who turned the heating off?
     They have their heating turned off during the morning.
     Our heating goes off at eleven o'clock and comes on again at seven.
-get_examples_by_word("heating", "noun", "b1")
+
 reality(noun)
   the true situation and the problems that actually exist in life, in contrast to how you would like life to be
     I don't think he understands the reality of the situation.
@@ -236,7 +176,6 @@ reality(noun)
     We were faced with the awful reality of having nowhere to live.
     Most people's ideas of the disease do not have much to do with the reality.
     The reality is that there is not enough money to pay for this project.
-get_examples_by_word("reality", "noun", "b1")
 
 role(noun)
   the degree to which somebody/something is involved in a situation or an activity and the effect that they have on it
@@ -245,7 +184,6 @@ role(noun)
     Politicians acknowledge the key roles that young people play in the country.
     We need to better understand the role of cold regions in the global climate system.
     the economic role of small towns
-get_examples_by_word("role", "noun", "b1")
 
 rugby(noun)
   a game played by two teams of 13 or 15 players, using an oval ball which may be kicked or carried. Teams try to put the ball over the other team’s line.
@@ -254,7 +192,6 @@ rugby(noun)
     The crowd enjoyed the Fijians' running rugby.
     In rugby circles, there is nothing but criticism for the coverage of sport on terrestrial TV.
     the former rugby international, Serge Blanco
-get_examples_by_word("rugby", "noun", "b1")
 
 bank(noun)
   the side of a river, canal, etc. and the land near it
@@ -263,7 +200,6 @@ bank(noun)
     We strolled along the river bank.
     It's on the north bank of the Thames.
     The river burst its banks after heavy rain.
-get_examples_by_word("bank", "noun", "b1")
 
 mood(noun)
   the way you are feeling at a particular time
@@ -278,7 +214,6 @@ mood(noun)
     His comments pretty much killed the mood for the rest of the show.
     We need a leader who can gauge the popular mood.
     The movie captures the mood of the interwar years perfectly.
-get_examples_by_word("mood", "noun", "b1")
 
 access(noun)
   the opportunity or right to use something or to see somebody/something
@@ -293,7 +228,6 @@ access(noun)
     You may need to gain access to the space under the floor.
     The police gained access through a broken window.
     A judge ruled that the public have right of access to the area.
-get_examples_by_word("access", "noun", "b1")
 
 staff(noun)
   all the workers employed in an organization considered as a group
@@ -302,7 +236,6 @@ staff(noun)
     We have a weekly staff meeting.
     The company has a staff of fifty.
     I have ten staff working for me.
-get_examples_by_word("staff", "noun", "b1")
 
 value(noun)
   how much something is worth in money or other goods for which it can be exchanged
@@ -323,7 +256,6 @@ value(noun)
     The real value of the book lies in its wonderful characterization.
     We began to recognize the value of advice from others.
     Many people question the social value of talk shows.
-get_examples_by_word("value", "noun", "b1")
 
 condition(noun)
   an illness or a medical problem that you have for a long time because it is not possible to cure it
@@ -350,7 +282,6 @@ condition(noun)
     I'll agree to the plan on one condition: my name doesn't get mentioned to the press.
     They will give us the money on one condition - that we pay it back within six months.
     They agreed under the condition that the matter be dealt with promptly.
-get_examples_by_word("condition", "noun", "b1")
 
 court(noun)
   the place where legal trials take place and where crimes, etc. are judged
@@ -371,7 +302,6 @@ court(noun)
     She is a good player on hard courts.
     Do you prefer playing tennis on grass courts or hard courts?
     He hopes to repeat his success on the grass courts of Wimbledon.
-get_examples_by_word("court", "noun", "b1")
 
 heart(noun)
   a thing that is like a heart in shape, often red and used as a symbol of love; a symbol like a heart used to mean the verb ‘love’
@@ -383,7 +313,6 @@ heart(noun)
     Just follow your heart and you'll be happy.
     Let's sing it one more time from the beginning - and put some heart into it!
     Have you no heart?
-get_examples_by_word("heart", "noun", "b1")
 
 dislike(noun)
   a feeling of not liking somebody/something
@@ -394,7 +323,6 @@ dislike(noun)
     He did not try to hide his dislike of his boss.
   a thing that you do not like
     I've told you all my likes and dislikes.
-get_examples_by_word("dislike", "noun", "b1")
 
 key(noun)
   a thing that makes you able to understand or achieve something
@@ -411,7 +339,6 @@ key(noun)
     You can use the arrow keys on the keyboard instead.
   any of the wooden or metal parts that you press to play a piano and some other musical instruments
     His hands flew over the piano keys.
-get_examples_by_word("key", "noun", "b1")
 
 employment(noun)
   work, especially when it is done to earn money; the state of being employed
@@ -426,7 +353,6 @@ employment(noun)
     The latest employment figures show a fall in the number of people who are out of work.
     The government aims to achieve full employment within three years.
     an area of very low employment
-get_examples_by_word("employment", "noun", "b1")
 
 protest(noun)
   the expression of strong dislike of or opposition to something; a statement or an action that shows this
@@ -435,13 +361,11 @@ protest(noun)
     The country has undergone two weeks of protests by workers and students.
     Unions have called for a day of protest on 24 February.
     There had been a number of public protests against the new tax.
-get_examples_by_word("protest", "noun", "b1")
 
 smoke(noun)
   an act of smoking a cigarette
     Are you coming outside for a smoke?
     He's in the back garden having a smoke.
-get_examples_by_word("smoke", "noun", "b1")
 
 whole(noun)
   all that there is of something
@@ -450,7 +374,6 @@ whole(noun)
     The effects will last for the whole of his life.
     Technology permeates the whole of our lives.
     The scheme would cover the whole of the UK.
-get_examples_by_word("whole", "noun", "b1")
 
 emotion(noun)
   a strong feeling such as love, fear or anger; the part of a person’s character that consists of feelings
@@ -459,7 +382,6 @@ emotion(noun)
     The film captures the real emotion of this terrible event.
     Drama can help children to express their emotions.
     The young boy bit his lip to keep his emotions in check.
-get_examples_by_word("emotion", "noun", "b1")
 
 move(noun)
   a change of place or position
@@ -479,7 +401,6 @@ move(noun)
     The game was over in only six moves.
     It's your move.
     She captured the queen with her bishop on the 32nd move.
-get_examples_by_word("move", "noun", "b1")
 
 worth(noun)
   the financial, practical or moral value of somebody/something
@@ -488,7 +409,6 @@ worth(noun)
     He has a personal net worth of $10 million.
     A good job interview should help candidates prove their worth.
     The activities help children to develop a sense of their own worth.
-get_examples_by_word("worth", "noun", "b1")
 
 stranger(noun)
   a person that you do not know
@@ -502,7 +422,6 @@ stranger(noun)
     He must have been a stranger to the town.
     She was a stranger to the place.
     You're a stranger here, aren't you?
-get_examples_by_word("stranger", "noun", "b1")
 
 society(noun)
   a group of people who join together for a particular purpose
@@ -511,7 +430,6 @@ society(noun)
     She belongs to the historical society.
     He is a member of numerous professional societies.
     I joined the local Genealogy Society.
-get_examples_by_word("society", "noun", "b1")
 
 request(verb)
   to ask for something or ask somebody to do something in a polite or formal way
@@ -520,7 +438,6 @@ request(verb)
     You are politely requested not to bring food or drink into the library.
     The government has requested information from the companies involved in the scandal.
     'Please come with me,' he requested.
-get_examples_by_word("request", "verb", "b1")
 
 light(verb)
   to give light to something or to a place
@@ -529,7 +446,6 @@ light(verb)
     the lighted windows of the house
     They use lanterns to light the room.
     The room was dark now, lit only by a single candle.
-get_examples_by_word("light", "verb", "b1")
 
 fix(verb)
   to decide on a date, a time, an amount, etc. for something
@@ -538,7 +454,6 @@ fix(verb)
     They fixed the rent at £200 a week.
     Their departure was fixed for 14 August.
     A second trial date was fixed for 7th December.
-get_examples_by_word("fix", "verb", "b1")
 
 remind(verb)
   to help somebody remember something, especially something important that they must do
@@ -547,14 +462,12 @@ remind(verb)
     I'm sure I don't need to remind you that we have lost our last ten games.
     She looked at her watch to remind him of the time.
     The bathroom mirror constantly reminds me that I am getting old.
-get_examples_by_word("remind", "verb", "b1")
 
 correct(verb)
   to mark the mistakes in a piece of work (and sometimes give a mark to the work)
     It's simply not true that teachers no longer correct bad spellings.
     I spent all evening correcting essays.
     When I've corrected your assignments, I want you to write them out again.
-get_examples_by_word("correct", "verb", "b1")
 
 dislike(verb)
   to not like somebody/something
@@ -563,7 +476,6 @@ dislike(verb)
     Most people dislike going to the dentist.
     If anyone really dislikes this colour, please tell me.
     He disliked it when she phoned him so late at night.
-get_examples_by_word("dislike", "verb", "b1")
 
 expect(verb)
   to demand that somebody will do something because it is their duty or responsibility
@@ -572,7 +484,6 @@ expect(verb)
     It is reasonable to expect changes in the way we work.
     It would be unreasonable to expect them to do all that work for free.
     I expect to be paid promptly for the work.
-get_examples_by_word("expect", "verb", "b1")
 
 argue(verb)
   to give reasons why you think that something is right/wrong, true/not true, etc., especially to persuade people that you are right
@@ -581,7 +492,6 @@ argue(verb)
     It could be argued that laws are made by and for men.
     In her paper she goes on to argue that scientists do not yet know enough about the nature of the disease.
     The report argues convincingly that economic help should be given to these countries.
-get_examples_by_word("argue", "verb", "b1")
 
 fight(verb)
   to have an argument with somebody about something
@@ -601,7 +511,6 @@ fight(verb)
     She fought hard to get this film made.
     They say they are fighting to preserve their way of life.
     We need a good manager who is prepared to fight for a fair share of the funds.
-get_examples_by_word("fight", "verb", "b1")
 
 compete(verb)
   to try to be more successful or better than somebody else who is trying to do the same as you
@@ -610,7 +519,6 @@ compete(verb)
     Colleges will have to compete to attract the best students.
     to compete on quality/cost
     There are too many magazines competing to attract readers.
-get_examples_by_word("compete", "verb", "b1")
 
 know(verb)
   to think that somebody/something is a particular type of person or thing or has particular characteristics
@@ -628,14 +536,12 @@ know(verb)
   to be able to recognize somebody/something
     I couldn't see who was speaking, but I knew the voice.
     She knows a bargain when she sees one.
-get_examples_by_word("know", "verb", "b1")
 
 follow(verb)
   to go along a road, path, etc.
     Follow this road until you get to the school, then turn left.
   to go in the same direction as something or parallel to something
     The lane follows the edge of a wood for about a mile.
-get_examples_by_word("follow", "verb", "b1")
 
 warn(verb)
   to tell somebody about something, especially something dangerous or unpleasant that is likely to happen, so that they can avoid it
@@ -650,7 +556,6 @@ warn(verb)
     We were warned against drinking the local water.
     We were specifically warned against buying the house.
     'I'm warning you!' said James, losing his patience.
-get_examples_by_word("warn", "verb", "b1")
 
 mind(verb)
   to be willing to do something
@@ -662,7 +567,6 @@ mind(verb)
     Mind your language! (= don't speak in a rude or offensive way)
     Mind your head! (= for example, be careful you don't hit it on a low ceiling)
     Mind (= Don't fall on) that step!
-get_examples_by_word("mind", "verb", "b1")
 
 waste(verb)
   to use more of something than is necessary or useful
@@ -671,7 +575,6 @@ waste(verb)
     We got straight down to business without wasting time on small talk.
     Their father hated to waste energy.
     You're wasting your time trying to explain it to him (= because he will not understand).
-get_examples_by_word("waste", "verb", "b1")
 
 concentrate(verb)
   to give all your attention to something and not think about anything else
@@ -680,7 +583,6 @@ concentrate(verb)
     She was sitting at her desk concentrating hard.
     Nothing concentrates the mind better than the knowledge that you could die tomorrow (= it makes you think very clearly).
     We're concentrating even harder on giving quality service this year.
-get_examples_by_word("concentrate", "verb", "b1")
 
 suffer(verb)
   to be badly affected by a disease, pain, sad feelings, a lack of something, etc.
@@ -689,7 +591,6 @@ suffer(verb)
     I'm sorry that you have to suffer alone like this.
     Increasing numbers of children are suffering from mental health problems.
     This area suffered very badly in the storms.
-get_examples_by_word("suffer", "verb", "b1")
 
 face(verb)
   to be opposite somebody/something; to have your face or front pointing towards somebody/something or in a particular direction
@@ -716,7 +617,6 @@ face(verb)
     I don't know how I'm going to be able to face telling them.
     She couldn't face her exercise class this morning.
     Some people just can't face parties.
-get_examples_by_word("face", "verb", "b1")
 
 aim(verb)
   to try or plan to achieve something
@@ -725,7 +625,6 @@ aim(verb)
     He has always aimed high (= tried to achieve a lot).
     We aim to be there around six.
     She's aiming at a scholarship this year.
-get_examples_by_word("aim", "verb", "b1")
 
 contact(verb)
   to communicate with somebody, for example by phone, letter or email
@@ -734,7 +633,6 @@ contact(verb)
     Anyone with tickets will be contacted by phone, letter or email and offered a full refund.
     I've been trying to contact you all day.
     Witnesses to the accident are asked to contact the police.
-get_examples_by_word("contact", "verb", "b1")
 
 introduce(verb)
   to mention something for the first time in a piece of writing
@@ -755,13 +653,11 @@ introduce(verb)
   to be the start of something new
     A slow theme introduces the first movement.
     Bands from London introduced the craze for this kind of music.
-get_examples_by_word("introduce", "verb", "b1")
 
 touch(verb)
   to move something, especially in such a way that you damage it; to hit or harm somebody
     I told you not to touch my things.
     He said I kicked him, but I never touched him!
-get_examples_by_word("touch", "verb", "b1")
 
 vote(verb)
   to show formally by marking a paper, raising your hand, using a voting machine, etc. which person you want to win an election, or which plan or idea you support
@@ -770,7 +666,6 @@ vote(verb)
     Everyone over 18 has the right to vote.
     Her party voted with the government.
     Over 60% of members voted in favour of (= for) the motion.
-get_examples_by_word("vote", "verb", "b1")
 
 fold(verb)
   to bend something, especially paper or cloth, so that one part lies on top of another part
@@ -785,7 +680,6 @@ fold(verb)
     The table folds away when not in use.
     The bed can be folded away during the day.
     The central back seat can be folded down to provide a useful tray.
-get_examples_by_word("fold", "verb", "b1")
 
 fear(verb)
   to be frightened of somebody/something or frightened of doing something
@@ -800,7 +694,7 @@ fear(verb)
     The company feared losing its tax breaks.
     Women and children are feared to be among the victims.
     He doesn't say anything because he fears upsetting his wife.
-get_examples_by_word("fear", "verb", "b1")
+
 play(verb)
   to pretend to be something that you are not
     The children were dressed as soldiers, but they were just playing.
@@ -815,7 +709,6 @@ play(verb)
   to trick somebody for fun
     Children ran around the village playing tricks.
     I played a trick on him just to see his reaction.
-get_examples_by_word("play", "verb", "b1")
 
 relax(verb)
   to become or make somebody become calmer and less worried
@@ -830,7 +723,6 @@ relax(verb)
     His severe expression relaxed into a half-smile.
     He relaxed his grip on her arm.
     The massage relaxed my tense back muscles.
-get_examples_by_word("relax", "verb", "b1")
 
 break(verb)
   to cut the surface of the skin and make it bleed
@@ -841,7 +733,6 @@ break(verb)
     to break a promise
     to break an appointment (= not to come to it)
     He was breaking the speed limit (= travelling faster than the law allows).
-get_examples_by_word("break", "verb", "b1")
 
 knock(verb)
   to hit something hard, often by accident
@@ -856,7 +747,6 @@ knock(verb)
     The boys were knocking (= kicking) a ball around in the back yard.
     He'd knocked over a glass of water.
     Mind you don't knock that glass over.
-get_examples_by_word("knock", "verb", "b1")
 
 imagine(verb)
   to think that something is probably true
@@ -864,7 +754,6 @@ imagine(verb)
     You don't seriously imagine I'll agree to that?
     I could almost imagine you were jealous.
     You shouldn't imagine that he's anything but a ruthless man.
-get_examples_by_word("imagine", "verb", "b1")
 
 afford(verb)
   to have enough money to be able to buy or do something
@@ -873,7 +762,7 @@ afford(verb)
     I would give up work if I could afford it.
     They couldn't afford to buy a house there.
     We can't afford to have children.
-get_examples_by_word("afford", "verb", "b1")
+
 frighten(verb)
   to make somebody suddenly feel afraid
     She doesn't frighten easily (= it is not easy to make her afraid).
@@ -881,7 +770,7 @@ frighten(verb)
     It really frightens me to think how this might have ended.
     Stop it! You're frightening me!
     It frightened him that she could see so easily into his private thoughts.
-get_examples_by_word("frighten", "verb", "b1")
+
 scan(verb)
   to look quickly but not very carefully at a document, etc.
     She scanned through the newspaper over breakfast.
@@ -889,7 +778,6 @@ scan(verb)
     I scanned the paper for news.
     He scanned through the web pages.
     You should teach students to scan for essential information.
-get_examples_by_word("scan", "verb", "b1")
 
 drop(verb)
   to make something fall deliberately; to let yourself fall
@@ -904,7 +792,6 @@ drop(verb)
     The dollar dropped sharply against the euro.
     Shares dropped in price by 14p.
     The price of oil has dropped significantly.
-get_examples_by_word("drop", "verb", "b1")
 
 rent(verb)
   to regularly pay money to somebody so that you can use something that they own, such as a house, a room, some land, etc.
@@ -924,14 +811,12 @@ rent(verb)
     We rented a car for the week and explored the area.
     You can rent mountain bikes and explore the area.
     They rented a meeting room in a downtown hotel.
-get_examples_by_word("rent", "verb", "b1")
 
 mark(verb)
   to give marks to students’ work
     I hate marking exam papers.
     I spend at least six hours a week marking.
     If you don't hand your homework in on time, I won't mark it.
-get_examples_by_word("mark", "verb", "b1")
 
 advise(verb)
   to tell somebody what you think they should do in a particular situation
@@ -946,7 +831,6 @@ advise(verb)
     We can advise parents about education.
     We employ an expert to advise on new technology.
     We will be happy to advise on any financial matters.
-get_examples_by_word("advise", "verb", "b1")
 
 hide(verb)
   to keep something secret, especially your feelings
@@ -955,7 +839,6 @@ hide(verb)
     I have never tried to hide the truth about my past.
     I could not hide my joy at seeing him again.
     The government tried to hide the evidence from the public.
-get_examples_by_word("hide", "verb", "b1")
 
 slice(verb)
   to cut something into slices
@@ -964,7 +847,6 @@ slice(verb)
     Add a few very thinly sliced red onions.
     sliced bread
     Thickly slice the potatoes.
-get_examples_by_word("slice", "verb", "b1")
 
 wonder(verb)
   to think about something and try to decide what is true, what will happen, what you should do, etc.
@@ -976,7 +858,6 @@ wonder(verb)
   used as a polite way of asking a question or asking somebody to do something
     I was wondering whether you would like to come to a party.
     I wonder if you can help me.
-get_examples_by_word("wonder", "verb", "b1")
 
 take(verb)
   to make somebody/something go from one level, situation, etc. to another
@@ -1010,7 +891,6 @@ take(verb)
   to choose, buy or rent something
     I'll take the grey jacket.
     We took a room at the hotel for two nights.
-get_examples_by_word("take", "verb", "b1")
 
 keep(verb)
   to know something and not tell it to anyone
@@ -1026,7 +906,6 @@ keep(verb)
     Separate accounts must be kept for each different business activity.
     We keep a record of all complaints that we receive.
     I kept a weekly account of my workload and activities.
-get_examples_by_word("keep", "verb", "b1")
 
 decorate(verb)
   to make something look more attractive by putting things on it
@@ -1039,7 +918,6 @@ decorate(verb)
     The room is decorated in pale blues and greens.
     The dining room is decorated in a modern style.
     I hate decorating.
-get_examples_by_word("decorate", "verb", "b1")
 
 participate(verb)
   to take part in or become involved in an activity
@@ -1048,14 +926,12 @@ participate(verb)
     to participate in an activity/event
     He participates well in classroom activities.
     He was trying to get the audience to participate.
-get_examples_by_word("participate", "verb", "b1")
 
 program(verb)
   to give a computer, etc. a set of instructions to make it perform a particular task
     In this class, students will learn how to program.
     He taught himself to program a computer.
     We can program a robot to walk around the room.
-get_examples_by_word("program", "verb", "b1")
 
 result(verb)
   to make something happen
@@ -1064,7 +940,6 @@ result(verb)
     Reviews of the policy have not resulted in any changes.
     The murder resulted in a number of steps being taken to increase security.
     This move will inevitably result in the loss of a lot of jobs.
-get_examples_by_word("result", "verb", "b1")
 
 pass(verb)
   to test somebody and decide that they are good enough, according to an agreed standard
@@ -1110,7 +985,6 @@ pass(verb)
     They waited for the storm to pass.
     This is a record of an era long since passed (= that ended a long time ago).
     I felt a little dizzy at first, but that quickly passed.
-get_examples_by_word("pass", "verb", "b1")
 
 perform(verb)
   to do something, such as a piece of work, task or duty
@@ -1125,7 +999,6 @@ perform(verb)
     The company has been performing strongly over the past year.
     The company has been performing poorly over the past year.
     students who are expected to perform well
-get_examples_by_word("perform", "verb", "b1")
 
 enter(verb)
   to put your name on the list for an exam, a race, a competition, etc.; to do this for somebody
@@ -1146,7 +1019,6 @@ enter(verb)
     I entered politics late in life.
     to enter the Church (= become a priest)
     to enter Parliament (= become an MP)
-get_examples_by_word("enter", "verb", "b1")
 
 present(adjective)
   being in a particular place
@@ -1155,7 +1027,6 @@ present(adjective)
     The mistake was obvious to all those present.
     I wasn't present when the doctor examined him.
     Simply to be physically present was all that was required.
-get_examples_by_word("present", "adjective", "b1")
 
 professional(adjective)
   connected with a job that needs special training or skill, especially one that needs a high level of education
@@ -1172,7 +1043,6 @@ professional(adjective)
     People trust websites that look professional.
     The consultant was very friendly but professional in his approach.
     He is always very professional in his approach.
-get_examples_by_word("professional", "adjective", "b1")
 
 extreme(adjective)
   not ordinary or usual; serious or severe
@@ -1181,7 +1051,6 @@ extreme(adjective)
     extreme weather conditions
     Children will be removed from their parents only in extreme circumstances.
     extreme weather events such as floods and heatwaves
-get_examples_by_word("extreme", "adjective", "b1")
 
 various(adjective)
   several different
@@ -1190,7 +1059,6 @@ various(adjective)
     Members of the various political parties were calling for something to be done.
     We talked about jobs, family, football and various other things.
     There are various ways of doing this.
-get_examples_by_word("various", "adjective", "b1")
 
 close(adjective)
   knowing somebody very well and liking them very much
@@ -1208,7 +1076,6 @@ close(adjective)
     The college has close links with many other institutions.
     Their survival depends on close cooperation.
     We work in close association with the ministry.
-get_examples_by_word("close", "adjective", "b1")
 
 common(adjective)
   shared by or belonging to two or more people or by the people in a group
@@ -1223,7 +1090,6 @@ common(adjective)
     Oats were the staple food of the common people.
     You would think he would have the common courtesy to apologize (= this would be the polite behaviour that people would expect).
     It's only common decency to let her know what's happening (= people would expect it).
-get_examples_by_word("common", "adjective", "b1")
 
 rich(adjective)
   people who have a lot of money or property
@@ -1234,7 +1100,6 @@ rich(adjective)
     The area is rich in wildlife.
     His novels are a rich source of material for the movie industry.
     Oranges are rich in vitamin C.
-get_examples_by_word("rich", "adjective", "b1")
 
 unfair(adjective)
   not right or fair according to a set of rules or principles; not treating people equally
@@ -1243,7 +1108,6 @@ unfair(adjective)
     It would be unfair not to let you have a choice.
     We hope the authorities will move to end such unfair practices.
     They had been given an unfair advantage.
-get_examples_by_word("unfair", "adjective", "b1")
 
 essential(adjective)
   completely necessary; extremely important in a particular situation or for a particular activity
@@ -1252,7 +1116,6 @@ essential(adjective)
     the skills essential for success
     He believed that some form of religion was essential to human life.
     It is essential to keep the two groups separate.
-get_examples_by_word("essential", "adjective", "b1")
 
 far(adjective)
   at a greater distance away from you
@@ -1265,7 +1128,6 @@ far(adjective)
     Who is that on the far left of the photograph?
     the far north of Scotland
     She is on the far right of the party (= holds extreme right-wing political views).
-get_examples_by_word("far", "adjective", "b1")
 
 wild(adjective)
   having no discipline or control
@@ -1280,7 +1142,6 @@ wild(adjective)
     The crowd went wild.
     Everything about her drove him wild (= made him like her very much).
     It's the story of a wild and romantic love affair.
-get_examples_by_word("wild", "adjective", "b1")
 
 confused(adjective)
   unable to think clearly or to understand what is happening or what somebody is saying
@@ -1289,7 +1150,6 @@ confused(adjective)
     I'm confused - say all that again.
     He was beginning to get rather confused.
     People are confused about all the different labels on food these days.
-get_examples_by_word("confused", "adjective", "b1")
 
 near(adjective)
   a short time away in the future
@@ -1300,7 +1160,6 @@ near(adjective)
     She has a 12-point lead over her nearest rival.
   similar; most similar
     He was the nearest thing to (= the person most like) a father she had ever had.
-get_examples_by_word("near", "adjective", "b1")
 
 strange(adjective)
   not familiar because you have not been there before or met the person before
@@ -1308,7 +1167,6 @@ strange(adjective)
     She woke up in a strange bed in a strange room.
     Never accept lifts from strange men.
     I am still a stranger in a strange land.
-get_examples_by_word("strange", "adjective", "b1")
 
 serious(adjective)
   needing to be thought about carefully; not only for pleasure
@@ -1323,7 +1181,6 @@ serious(adjective)
     The subject has received little serious attention.
     The team is a serious contender for the title this year.
     It's time to give serious consideration to this matter.
-get_examples_by_word("serious", "adjective", "b1")
 
 total(adjective)
   being the amount or number after everyone or everything is counted or added together
@@ -1338,7 +1195,6 @@ total(adjective)
     The game ended in a total rout.
     Six years of total war had left no citizen untouched.
     They lived with an almost total lack of information about what was happening.
-get_examples_by_word("total", "adjective", "b1")
 
 available(adjective)
   free to see or talk to people
@@ -1346,7 +1202,6 @@ available(adjective)
     They'll be available to help every day next week.
     The director was not available for comment.
     Will she be available this afternoon?
-get_examples_by_word("available", "adjective", "b1")
 
 live(adjective)
   living; not dead
@@ -1366,7 +1221,6 @@ live(adjective)
     the magic of a live performance
   made at a live performance, not in a recording studio
     the band's new live album
-get_examples_by_word("live", "adjective", "b1")
 
 unpleasant(adjective)
   not pleasant or comfortable
@@ -1381,7 +1235,6 @@ unpleasant(adjective)
     She said some very unpleasant things about you.
     There was an unpleasant atmosphere in the room.
     He was very unpleasant to me.
-get_examples_by_word("unpleasant", "adjective", "b1")
 
 aware(adjective)
   knowing or realizing something
@@ -1390,7 +1243,6 @@ aware(adjective)
     As you're aware, this is not a new problem.
     We need to make people aware of the effects of their lifestyle on the environment.
     She was suddenly aware that she was being watched.
-get_examples_by_word("aware", "adjective", "b1")
 
 suitable(adjective)
   right or appropriate for a particular purpose or occasion
@@ -1399,13 +1251,10 @@ suitable(adjective)
     This programme is not suitable for children.
     I don't think he's a suitable partner for her.
     The walk is suitable for all the family.
-get_examples_by_word("suitable", "adjective", "b1")
-
 
 relaxing(adjective)
   helping you to rest and become less anxious
     I find swimming very relaxing.
-get_examples_by_word("relaxing", "adjective", "b1")
 
 married(adjective)
   connected with marriage
@@ -1413,14 +1262,10 @@ married(adjective)
     Her married name (= the family name of her husband) is Jones.
     The poem is a celebration of married love.
     The officer was stationed at Netley, where he and his wife lived in married quarters (= accommodation).
-get_examples_by_word("married", "adjective", "b1")
 
 square(adjective)
   used after a number to give a measurement of area
   used after a unit of measurement to say that something measures the same amount on each of four sides
-get_examples_by_word("square", "adjective", "b1")
-
-
 
 little(adjective)
   used after an adjective to show approval, sympathy or dislike, especially in a patronizing way (= one that suggests that you think you are better than somebody)
@@ -1434,8 +1279,6 @@ little(adjective)
     I can't remember every little detail.
     All those problems because of one little mistake!
     The system has some odd little quirks.
-get_examples_by_word("little", "adjective", "b1")
-
 
 fine(adjective)
   bright and not raining
@@ -1446,7 +1289,6 @@ fine(adjective)
     I hope it stays fine for the picnic.
   pleasant to look at
     The boy looks mighty fine in a uniform.
-get_examples_by_word("fine", "adjective", "b1")
 
 sure(adjective)
   certain that you will receive something or that something will happen
@@ -1458,7 +1300,6 @@ sure(adjective)
     She's sure to be picked for the team.
     It's sure to rain.
     You're sure to get lost if you don't keep to the path.
-get_examples_by_word("sure", "adjective", "b1")
 
 embarrassed(adjective)
   shy, uncomfortable or ashamed, especially in a social situation
@@ -1467,14 +1308,12 @@ embarrassed(adjective)
     I've never felt so embarrassed in my life!
     I was embarrassed about talking to my parents about it.
     Some women are too embarrassed to consult their doctor about the problem.
-get_examples_by_word("embarrassed", "adjective", "b1")
 
 fair(adjective)
   pale in colour
     She has long fair hair.
     Kate had dark hair and fair skin.
     All her children are fair (= they all have fair hair).
-get_examples_by_word("fair", "adjective", "b1")
 
 free(adjective)
   not under the control or in the power of somebody else; able to do what you want
@@ -1501,7 +1340,6 @@ free(adjective)
     He subdues one of the wild horses and then allows it to go free.
     The researchers set the birds free.
     animals roaming free across the plains
-get_examples_by_word("free", "adjective", "b1")
 
 independent(adjective)
   confident and free to do things without needing help from other people
@@ -1511,7 +1349,6 @@ independent(adjective)
     Many disabled people are fiercely independent.
   having or earning enough money so that you do not have to rely on somebody else for help
     It was important to me to be financially independent of my parents.
-get_examples_by_word("independent", "adjective", "b1")
 
 public(adjective)
   connected with the government and the services it provides
@@ -1531,7 +1368,6 @@ public(adjective)
     The company was forced to issue a public apology.
   where there are a lot of people who can see and hear you
     Let's go somewhere a little less public.
-get_examples_by_word("public", "adjective", "b1")
 
 shiny(adjective)
   smooth and bright; reflecting the light
@@ -1540,7 +1376,6 @@ shiny(adjective)
     His face was red and shiny.
     He looked very smart in his grey suit and shiny black shoes.
     The tabletop is smooth and shiny.
-get_examples_by_word("shiny", "adjective", "b1")
 
 convenient(adjective)
   useful, easy or quick to do; not causing problems
@@ -1554,7 +1389,6 @@ convenient(adjective)
     The house is quite convenient for the shops.
     The office is just five minutes from the station, so it's very convenient.
     The hotel is convenient to downtown.
-get_examples_by_word("convenient", "adjective", "b1")
 
 proud(adjective)
   feeling pleased and satisfied about something that you own or have done, or are connected with
@@ -1563,7 +1397,6 @@ proud(adjective)
     The girls have made me extremely proud.
     Barry was proud of the fact that he had never missed a day's work in his life.
     proud parents
-get_examples_by_word("proud", "adjective", "b1")
 
 living(adjective)
   alive now
@@ -1571,7 +1404,6 @@ living(adjective)
     the finest living pianist
     all living things
     living organisms
-get_examples_by_word("living", "adjective", "b1")
 
 honest(adjective)
   always telling the truth, and never stealing or cheating
@@ -1583,7 +1415,6 @@ honest(adjective)
     Try to give an honest answer.
     He gave an honest answer to a difficult question.
     We need to have more open and honest discussions about mental health.
-get_examples_by_word("honest", "adjective", "b1")
 
 especially(adverb)
   very much; to a particular degree
@@ -1592,7 +1423,6 @@ especially(adverb)
     Children are expected to obey their parents at all times.This is especially true of girls.
     'Do you like his novels?' 'Not especially.'
     A plentiful supply of water is especially important in summer.
-get_examples_by_word("especially", "adverb", "b1")
 
 simply(adverb)
   used to emphasize how easy or basic something is
@@ -1610,7 +1440,6 @@ simply(adverb)
   in a way that is natural and plain
     They live simply (= they do not spend much money).
     The rooms are simply furnished.
-get_examples_by_word("simply", "adverb", "b1")
 
 particularly(adverb)
   especially; more than usual or more than others
@@ -1619,7 +1448,6 @@ particularly(adverb)
     I particularly like the colour of the walls.
     Traffic is bad, particularly in the city centre.
     'Did you enjoy it?' 'No, not particularly (= not very much).'
-get_examples_by_word("particularly", "adverb", "b1")
 
 regularly(adverb)
   at regular intervals or times
@@ -1632,13 +1460,11 @@ regularly(adverb)
     He admitted that he regularly used drugs.
     As Home Secretary he had regularly visited Belfast.
     The couple regularly attended Mass.
-get_examples_by_word("regularly", "adverb", "b1")
 
 high(adverb)
   to or at an important position
     She never rose very high in the company.
     She's aiming high (= hoping to be very successful) in her exams.
-get_examples_by_word("high", "adverb", "b1")
 
 this(adverb)
   to this degree; so
@@ -1646,7 +1472,6 @@ this(adverb)
     I honestly can't remember when I last enjoyed a film this much.
     They never expected to be quite this successful.
     It's about this high (= as high as I am showing you with my hands).
-get_examples_by_word("this", "adverb", "b1")
 
 well(adverb)
   to a great extent or degree
@@ -1655,9 +1480,6 @@ well(adverb)
     He liked her well enough (= to a reasonable degree) but he wasn't going to make a close friend of her.
     I was well annoyed, I can tell you.
     He was driving at well over the speed limit.
-get_examples_by_word("well", "adverb", "b1")
-
-
 
 ever(adverb)
   used for emphasis when you are comparing things
@@ -1665,7 +1487,6 @@ ever(adverb)
     It's the worst film I've ever seen.
     Consumers today have more choices than ever before.
     It's my best ever score.
-get_examples_by_word("ever", "adverb", "b1")
 
 totally(adverb)
   completely
@@ -1674,7 +1495,6 @@ totally(adverb)
     This will be a totally new experience for me.
     I admit that I was totally wrong.
     It's important to focus totally on what you're doing.
-get_examples_by_word("totally", "adverb", "b1")
 
 generally(adverb)
   by or to most people
@@ -1691,7 +1511,6 @@ generally(adverb)
     The symptoms of jet lag are generally worse after eastward flights.
   without discussing the details of something
     Let's talk just about investment generally.
-get_examples_by_word("generally", "adverb", "b1")
 
 indoors(adverb)
   inside or into a building
@@ -1700,7 +1519,6 @@ indoors(adverb)
     Let's go indoors.
     She added that in Hong Kong most cats were kept indoors.
     Many herbs can be grown indoors.
-get_examples_by_word("indoors", "adverb", "b1")
 
 twice(adverb)
   double in quantity, rate, etc.
@@ -1708,15 +1526,10 @@ twice(adverb)
     At 56 he's twice her age.
     an area twice the size of Wales
     Charges have risen at twice the rate of inflation.
-get_examples_by_word("twice", "adverb", "b1")
 
 forward(adverb)
   towards the future; ahead in time
     The next scene takes the story forwards five years.
     The series moves back and forward through time.
     Looking forward, we hope to expand our operations in several of our overseas branches.
-    from this day forward
-get_examples_by_word("forward", "adverb", "b1")
-
-[['noun', 'film', 'edge', 'business', 'library', 'aim', 'recipe', 'young', 'speech', 'reservation', 'stage', 'competition', 'spending', 'excitement', 'event', 'disadvantage', 'chapter', 'lie', 'queue', 'hand', 'impact', 'care', 'kick', 'fight', 'position', 'step', 'cycle', 'side', 'nature', 'gap', 'ceiling', 'fitness', 'discount', 'profit', 'battery', 'green', 'sound', 'hall', 'white', 'challenge', 'tyre', 'bit', 'destination', 'shelf', 'favour', 'mess', 'athlete', 'guest', 'mark', 'reception', 'character', 'client', 'degree', 'contrast', 'normal', 'shake', 'technique', 'intention', 'cost', 'rubbish', 'paper', 'entertainment', 'prediction', 'standard', 'campus', 'impression', 'report', 'image', 'cottage', 'appointment', 'respect', 'series', 'tip', 'sample', 'emergency', 'heating', 'reality', 'role', 'rugby', 'bank', 'mood', 'access', 'staff', 'value', 'condition', 'court', 'heart', 'dislike', 'key', 'employment', 'protest', 'smoke', 'whole', 'emotion', 'move', 'worth', 'stranger', 'society'], ['verb', 'request', 'light', 'fix', 'remind', 'correct', 'dislike', 'expect', 'argue', 'fight', 'compete', 'know', 'follow', 'warn', 'mind', 'waste', 'concentrate', 'suffer', 'face', 'aim', 'contact', 'introduce', 'touch', 'vote', 'fold', 'fear', 'play', 'relax', 'break', 'knock', 'imagine', 'afford', 'frighten', 'scan', 'drop', 'rent', 'mark', 'advise', 'hide', 'slice', 'wonder', 'take', 'keep', 'decorate', 'participate', 'program', 'result', 'pass', 'perform', 'enter'], ['adjective', 'present', 'professional', 'extreme', 'various', 'close', 'common', 'rich', 'unfair', 'essential', 'far', 'wild', 'confused', 'near', 'strange', 'serious', 'total', 'available', 'live', 'unpleasant', 'aware', 'suitable', 'frightening', 'relaxing', 'married', 'square', 'guilty', 'little', 'fascinating', 'fine', 'sure', 'embarrassed', 'fair', 'free', 'independent', 'public', 'shiny', 'convenient', 'proud', 'living', 'honest'], ['adverb', 'especially', 'simply', 'particularly', 'regularly', 'high', 'this', 'well', 'eventually', 'ever', 'totally', 'generally', 'indoors', 'twice', 'forward']]
-[Finished in 52.378s]
+    from this day forward.
