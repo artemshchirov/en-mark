@@ -11,23 +11,23 @@
 /* content */
 @import url(../blocks/content/content.css);
 @import url(../blocks/content/__section/content__section.css);
-
+/* header */
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__title/header__title.css);
-
+/* starred */
 @import url(../blocks/starred/starred.css);
 @import url(../blocks/starred/__container/starred__container.css);
 @import url(../blocks/starred/__sentence/starred__sentence.css);
-
+/* cards */
 @import url(../blocks/cards/cards.css);
 @import url(../blocks/card/card.css);
 @import url(../blocks/card/__title/card__title.css);
 @import url(../blocks/card/__explanation/card__explanation.css);
 @import url(../blocks/card/__list/card__list.css);
 @import url(../blocks/card/__sentence/card__sentence.css);
-
+/* load-file */
 @import url(../blocks/load-file/load-file.css);
 @import url(../blocks/load-file/__input/load-file__input.css);
 @import url(../blocks/load-file/__textarea/load-file__textarea.css);
-
+/* footer */
 @import url(../blocks/footer/footer.css);
