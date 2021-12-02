@@ -1,2 +1,5 @@
-Загрузить cards.txt в input. 
-При клике на предложения они поднимаются наверх
+# en-mark
+
+English learning resource
+
+input card.txt
