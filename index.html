@@ -8,8 +8,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="keywords" content="интересное место, необычная локация, социальная сеть" />
     <meta name="author" content="Артём Щиров на Яндекс Практикум" />
-    <link rel="icon" type="image/png" href="./favicon.png" />
-    <link rel="stylesheet" href="./pages/index.css">
+    <link rel="icon" type="image/png" href="./images/favicon.png" />
+    <link rel="stylesheet" href="./pages/index.css" />
     <script src="./scripts/index.js" defer></script>
 </head>
 
@@ -23,9 +23,11 @@
 
         <main class="content page__content">
             <section class="starred section content__section">
+                <div class="starred__container">
+
+                </div>
                 <template id="starred-template">
                     <p class="starred__sentence">
-                        1. starred__sentence
                     </p>
                 </template>
             </section>
@@ -36,13 +38,14 @@
                         <h2 class="card__title">
                             word__title
                         </h2>
-
                     </article>
                 </template>
+
                 <template id="card-list">
                     <ul class="card__list">
                     </ul>
                 </template>
+
                 <template id="card-explanation">
                     <p class="card__explanation">
                         word__explanation

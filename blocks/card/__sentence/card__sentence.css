@@ -1,3 +1,12 @@
 .card__sentence {
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 1.5;
+    opacity: 1;
+    transition: opacity .1s linear;
+    max-width: max-content;
+}
 
+.card__sentence:hover {
+    opacity: 0.8;
 }

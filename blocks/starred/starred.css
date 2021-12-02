@@ -1,3 +1,9 @@
 .starred {
-    background-color: aqua;
+    background-color: #DFF4F3;
+    min-height: 81px;
+    margin: 20px auto;
+    max-width: 70%;
+    color: #444444;
+    font-size: 18px;
+
 }

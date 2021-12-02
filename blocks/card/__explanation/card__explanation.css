@@ -1,4 +1,5 @@
 .card__explanation {
-    margin: 10 0 0;
+    margin: 15px 0 0;
     padding-left: 20px;
+    font-size: 20px;
 }
