@@ -1,7 +1,6 @@
 .header {
-    width: 100%;
-    box-sizing: border-box;
     background-color: #769FCD;
     display: flex;
     justify-content: center;
+    align-items: center;
 }

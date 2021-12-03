@@ -1,5 +1,4 @@
 .card__list {
-    margin: 15px 0 0;
-    padding: 0 0 0 50px;
-    /* list-style: decimal; */
+    margin: 0;
+    padding: 10px 50px 0;
 }

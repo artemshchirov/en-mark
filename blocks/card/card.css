@@ -1,9 +1,14 @@
 .card {
-    background-color: #F7FBFC;
-    border-radius: 10px;
-    width: 100%;
-    padding: 20px;
-    margin: 10px 0;
-    box-sizing: border-box;
     color: #444444;
+    padding: 10px 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.card:first-of-type {
+    padding-top: 20px;
+}
+
+.card:last-of-type {
+    padding-bottom: 20px;
 }

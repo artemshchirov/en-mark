@@ -31,3 +31,4 @@
 @import url(../blocks/load-file/__textarea/load-file__textarea.css);
 /* footer */
 @import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__link/footer__link.css);
