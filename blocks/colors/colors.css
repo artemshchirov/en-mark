@@ -1,0 +1,9 @@
+.colors {
+    margin: 20px auto 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 660px;
+    border: 1px solid grey;
+}

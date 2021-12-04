@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <meta charset="utf-8">
@@ -22,6 +22,32 @@
         </header>
 
         <main class="content page__content">
+            <div class="colors">
+                <label>header</label>
+                <input type="text" class="input-color" id="input-color-header_id">
+                <button class="btn-input" onclick="colorHeader()">set</button>
+                <label>title</label>
+                <input type="text" class="input-color" id="input-color-header-text_id">
+                <button class="btn-input" onclick="colorTitle()">set</button>
+                <label>background</label>
+                <input type="text" class="input-color" id="input-color-background-page_id">
+                <button class="btn-input" onclick="colorBackground()">set</button>
+                <label>starred</label>
+                <input type="text" class="input-color" id="input-color-background-starred_id">
+                <button class="btn-input" onclick="colorStarred()">set</button>
+                <label>cards</label>
+                <input type="text" class="input-color" id="input-color-background-cards_id">
+                <button class="btn-input" onclick="colorCards()">set</button>
+                <label>text</label>
+                <input type="text" class="input-color" id="input-color-text_id">
+                <button class="btn-input" onclick="colorText()">set</button>
+                <label>load</label>
+                <input type="text" class="input-color" id="input-color-load-file_id">
+                <button class="btn-input" onclick="colorLoad()">set</button>
+                <label>footer</label>
+                <input type="text" class="input-color" id="input-color-footer_id">
+                <button class="btn-input" onclick="colorFooter()">set</button>
+            </div>
             <section class="starred section content__section">
                 <div class="starred__container">
 
@@ -71,9 +97,7 @@
                     </button>
                     <input class="load-file__input" type="file" name="load-file__input_name" id="load-file__input_id" />
                 </div>
-                <textarea class="load-file__textarea" name="load-file__textarea_name" id="load-file__textarea_id"
-                    cols="30" rows="20"></textarea>
-
+                <textarea class="load-file__textarea" name="load-file__textarea_name" id="load-file__textarea_id"></textarea>
             </section>
         </main>
 

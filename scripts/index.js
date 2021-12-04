@@ -59,6 +59,7 @@ const readTextCardsFile = file => {
             cardTitle = cardElem.querySelector('.card__title');
             cardTitle.textContent = file[line];
         };
+        textarea.scrollTo(0, 0);
         window.scrollTo(0, 0);
     };
 }
@@ -86,7 +87,7 @@ btnReadText.addEventListener('click', () => {
     if (textAreaContent.length == 0) return;
     const lines = textAreaContent.split(/\r\n|\n/);
     readTextCardsFile(lines);
-    }
+}
 );
 
 // textarea.addEventListener('input', evt => {
@@ -96,3 +97,44 @@ btnReadText.addEventListener('click', () => {
 //     readTextCardsFile(lines);
 //     textarea.blur();
 // });
+
+colorHeader = () => {
+    let elem = document.querySelector('.header');
+    let newColor = document.getElementById('input-color-header_id').value;
+    elem.style.backgroundColor = newColor;
+};
+colorTitle = () => {
+    let elem = document.querySelector('.header__title');
+    let newColor = document.getElementById('input-color-header-text_id').value;
+    elem.style.color = newColor;
+};
+colorBackground = () => {
+    let elem = document.querySelector('.page');
+    let newColor = document.getElementById('input-color-background-page_id').value;
+    elem.style.backgroundColor = newColor;
+};
+colorStarred = () => {
+    let elem = document.querySelector('.starred');
+    let newColor = document.getElementById('input-color-background-starred_id').value;
+    elem.style.backgroundColor = newColor;
+};
+colorCards = () => {
+    let elem = document.querySelector('.cards');
+    let newColor = document.getElementById('input-color-background-cards_id').value;
+    elem.style.backgroundColor = newColor;
+};
+colorText = () => {
+    let elem = document.querySelector('.card');
+    let newColor = document.getElementById('input-color-text_id').value;
+    elem.style.color = newColor;
+};
+colorLoad = () => {
+    let elem = document.querySelector('.load-file');
+    let newColor = document.getElementById('input-color-load-file_id').value;
+    elem.style.backgroundColor = newColor;
+};
+colorFooter = () => {
+    let elem = document.querySelector('.footer');
+    let newColor = document.getElementById('input-color-footer_id').value;
+    elem.style.backgroundColor = newColor;
+};

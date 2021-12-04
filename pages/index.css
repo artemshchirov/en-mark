@@ -35,3 +35,9 @@
 /* footer */
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__link/footer__link.css);
+
+/* colors */
+@import url(../blocks/colors/colors.css);
+
+@import url(../blocks/input-color/input-color.css);
+@import url(../blocks/btn-input/btn-input.css);
