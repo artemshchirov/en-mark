@@ -34,7 +34,10 @@ const addListElem = elem => cardList.append(elem);
 const addStarred = sentence => starredContainer.append(sentence);
 const readTextCardsFile = file => {
     let cardTitle = document.querySelector('.card__title') !== null;
+    console.log(file[0])
 
+    // file = " \n" + file;
+    console.log(file[0])
     for (let line = 0; line <= file.length; line++) {
         // if current line empty line
         if (!file[line] || !file[line].length) {
@@ -90,13 +93,6 @@ btnReadText.addEventListener('click', () => {
 }
 );
 
-// textarea.addEventListener('input', evt => {
-//     const file = evt.target.value;
-//     if (file == 0) return;
-//     const lines = file.split(/\r\n|\n/);
-//     readTextCardsFile(lines);
-//     textarea.blur();
-// });
 const showColors = evt => {
     console.log(evt.keyCode);
     let color = document.getElementById('col');
@@ -144,7 +140,7 @@ colorCards = () => {
     elem.style.backgroundColor = newColor;
 };
 colorText = () => {
-    let elem = document.querySelector('.card');
+    let elem = document.querySelector('.page');
     let newColor = document.getElementById('input-color-text_id').value;
     elem.style.color = newColor;
 };
