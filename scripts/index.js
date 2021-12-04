@@ -97,6 +97,26 @@ btnReadText.addEventListener('click', () => {
 //     readTextCardsFile(lines);
 //     textarea.blur();
 // });
+const showColors = evt => {
+    console.log(evt.keyCode);
+    let color = document.getElementById('col');
+    console.log(color);
+    if (evt.keyCode === 96) {
+        console.log('1');
+        console.log(color.style.display);
+        colorCSS = window.getComputedStyle(color, null).getPropertyValue("display");
+        console.log(colorCSS);
+        if (colorCSS === "none") {
+            console.log('2');
+            color.style.display = 'flex';
+        } else if (color.style.display === "flex") {
+            console.log('3');
+            color.style.display = 'none';
+        };
+    }
+};
+document.addEventListener('keypress', evt => showColors(evt));
+
 
 colorHeader = () => {
     let elem = document.querySelector('.header');
