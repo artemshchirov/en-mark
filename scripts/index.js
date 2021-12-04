@@ -15,6 +15,7 @@ const createExplanationElem = txt => {
     cardExplanation.textContent = txt;
     return cardExplanation;
 }
+
 const createSentenceElem = txt => {
     let cardSentence = cardSentenceTemplate.querySelector('.card__sentence').cloneNode(true);
     cardSentence.textContent = txt;
@@ -24,6 +25,9 @@ const createSentenceElem = txt => {
 const createStarred = txt => {
     starredSentence = starredTemplate.querySelector('.starred__sentence').cloneNode(true);
     starredSentence.textContent = txt;
+    // starredSentence = starredSentence.textContent.replace(/(\r\n|\n|\r)/gm, "");
+    newBr = document.createElement('br');
+    starredSentence.appendChild(newBr);
     addStarred(starredSentence); //! разделить на разные функции по 1 действию
 };
 
