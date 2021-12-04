@@ -1,9 +1,10 @@
 .load-file {
+    /* Цвет фона кнопки "Choose file" и поля текста */
+    background-color: #769FCD;
+    margin-top: 20px;
+    padding: 10px;
+    max-width: 70%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #769FCD;
-    box-sizing: border-box;
-    padding: 10px;  
-    max-width: 70%;
 }

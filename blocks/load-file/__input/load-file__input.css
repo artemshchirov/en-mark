@@ -1,4 +1,5 @@
 .load-file__input {
-    max-width: 70%;
-    text-align-last: center;
+    width: 0;
+    height: 0;
+    visibility: hidden;
 }

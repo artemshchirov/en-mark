@@ -1,9 +1,12 @@
 .page {
+    /* Цвет фона от шапки до подвала */
     background-color: #B9D7EA;
+    /* Цвет текста на всей странице */
+    color: #444444;
+
     font-family: Sans-serif, 'Inter';
     font-weight: normal;
     font-style: normal;
-    color: #000;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     -webkit-text-size-adjust: 100%;

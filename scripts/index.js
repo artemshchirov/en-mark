@@ -1,6 +1,6 @@
 const input = document.getElementById('load-file__input_id');
 const textarea = document.getElementById('load-file__textarea_id');
-const cards = document.querySelector('.cards');
+let cards = document.querySelector('.cards');
 const starredContainer = document.querySelector('.starred__container');
 const starredTemplate = document.querySelector('#starred-template').content;
 const cardTemplate = document.querySelector('#card-template').content;
@@ -9,7 +9,6 @@ const cardListTemplate = document.querySelector('#card-list').content;
 const cardSentenceTemplate = document.querySelector('#card-sentence').content;
 let cardElem = "";
 let cardList = "";
-let countStarred = 0;
 
 const createExplanationElem = txt => {
     let cardExplanation = cardExplanationTemplate.querySelector('.card__explanation').cloneNode(true);
@@ -23,21 +22,26 @@ const createSentenceElem = txt => {
     return cardSentence;
 }
 const createStarred = txt => {
-    countStarred += 1;
     starredSentence = starredTemplate.querySelector('.starred__sentence').cloneNode(true);
-    starredSentence.textContent = `${countStarred}. ${txt}`;
+    starredSentence.textContent = txt;
     addStarred(starredSentence); //! разделить на разные функции по 1 действию
 };
+
+const header = document.querySelector('header');
+
 const addCardElem = elem => cardElem.append(elem);
 const addListElem = elem => cardList.append(elem);
 const addStarred = sentence => starredContainer.append(sentence);
 const readTextCardsFile = file => {
+    let cardTitle = document.querySelector('.card__title') !== null;
+
     for (let line = 0; line <= file.length; line++) {
         // if current line empty line
         if (!file[line] || !file[line].length) {
-            // if last line
+
             if (typeof file[line] === "undefined") break;
-            cards.append(cardElem);
+            if (cardTitle.textContent) cards.append(cardElem);
+
             cardElem = cardTemplate.querySelector('.card').cloneNode(true);
             // if current line sentence
         } else if (file[line].slice(0, 4) === '    ') {
@@ -50,11 +54,12 @@ const readTextCardsFile = file => {
         } else if (file[line].slice(0, 2) === '  ') {
             cardList = cardListTemplate.querySelector('.card__list').cloneNode(true);
             addCardElem(createExplanationElem(file[line]));
-            // if current line title word
-        } else {
-            let cardTitle = cardElem.querySelector('.card__title');
+            // else current line title word
+        } else if (file[line][0]) {
+            cardTitle = cardElem.querySelector('.card__title');
             cardTitle.textContent = file[line];
         };
+        window.scrollTo(0, 0);
     };
 }
 input.addEventListener('change', () => {
@@ -70,4 +75,24 @@ input.addEventListener('change', () => {
     };
     reader.onerror = evt => alert(evt.target.error.name);
     reader.readAsText(file);
+    textarea.blur();
 });
+
+const btnReadText = document.getElementById('btn-read-text');
+btnReadText.addEventListener('click', () => {
+    cards.querySelectorAll('.card').forEach(elem => elem.remove());
+
+    const textAreaContent = document.getElementById("load-file__textarea_id").value;
+    if (textAreaContent.length == 0) return;
+    const lines = textAreaContent.split(/\r\n|\n/);
+    readTextCardsFile(lines);
+    }
+);
+
+// textarea.addEventListener('input', evt => {
+//     const file = evt.target.value;
+//     if (file == 0) return;
+//     const lines = file.split(/\r\n|\n/);
+//     readTextCardsFile(lines);
+//     textarea.blur();
+// });

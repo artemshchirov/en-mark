@@ -27,8 +27,11 @@
 @import url(../blocks/card/__sentence/card__sentence.css);
 /* load-file */
 @import url(../blocks/load-file/load-file.css);
+@import url(../blocks/load-file/__buttons/load-file__buttons.css);
 @import url(../blocks/load-file/__input/load-file__input.css);
+@import url(../blocks/load-file/__between-buttons/load-file__between-buttons.css);
 @import url(../blocks/load-file/__textarea/load-file__textarea.css);
+@import url(../blocks/load-file/__read-textarea/load-file__read-textarea.css);
 /* footer */
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__link/footer__link.css);

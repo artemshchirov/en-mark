@@ -36,7 +36,6 @@
                 <template id="card-template">
                     <article class="card">
                         <h2 class="card__title">
-                            word__title
                         </h2>
                     </article>
                 </template>
@@ -48,19 +47,33 @@
 
                 <template id="card-explanation">
                     <p class="card__explanation">
-                        word__explanation
                     </p>
                 </template>
 
                 <template id="card-sentence">
-                    <li class="card__sentence">sentence 1</li>
+                    <li class="card__sentence">
+                    </li>
                 </template>
 
             </section>
             <section class="load-file section content__section">
-                <input class="load-file__input" type="file" name="load-file__input_name" id="load-file__input_id" />
+                <div class="load-file__buttons">
+                    <button class="load-file__read-textarea" id="btn-read-text">
+                        start read
+                    </button>
+                    <p class="load-file__between-buttons">
+                        or
+                    </p>
+                    <button class="load-file__read-textarea">
+                        <label for="load-file__input_id">
+                            select file
+                        </label>
+                    </button>
+                    <input class="load-file__input" type="file" name="load-file__input_name" id="load-file__input_id" />
+                </div>
                 <textarea class="load-file__textarea" name="load-file__textarea_name" id="load-file__textarea_id"
                     cols="30" rows="20"></textarea>
+
             </section>
         </main>
 

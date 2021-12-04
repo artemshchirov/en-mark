@@ -1,6 +1,8 @@
 .cards {
-    max-width: 70%;
+    /* Цвет фона карточек */
     background-color: #F7FBFC;
+    max-width: 70%;
+    min-height: 81px;
+    margin-top: 20px;
     border-radius: 10px;
-
 }
