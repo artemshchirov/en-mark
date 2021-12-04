@@ -114,6 +114,8 @@ const showColors = evt => {
 document.addEventListener('keypress', evt => showColors(evt));
 
 
+readTextCardsFile(document.getElementById("load-file__textarea_id").value.split(/\r\n|\n/));
+
 colorHeader = () => {
     let elem = document.querySelector('.header');
     let newColor = document.getElementById('input-color-header_id').value;
