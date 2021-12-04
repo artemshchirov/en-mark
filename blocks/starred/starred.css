@@ -1,6 +1,5 @@
 .starred {
-    /* Цвет области выбранных (кликнутых) предложений */
-    background-color: #DFF4F3;
+    background-color: #282c34;
     margin: 20px auto 0;
     min-height: 81px;
     max-width: 70%;
