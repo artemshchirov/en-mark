@@ -1,6 +1,7 @@
 const input = document.getElementById('load-file__input_id');
 const textarea = document.getElementById('load-file__textarea_id');
 let cards = document.querySelector('.cards');
+const starredCount = document.querySelector('.starred__count');
 const starredContainer = document.querySelector('.starred__container');
 const starredTemplate = document.querySelector('#starred-template').content;
 const cardTemplate = document.querySelector('#card-template').content;
@@ -9,6 +10,7 @@ const cardListTemplate = document.querySelector('#card-list').content;
 const cardSentenceTemplate = document.querySelector('#card-sentence').content;
 let cardElem = "";
 let cardList = "";
+let countSentences = 0;
 
 const createExplanationElem = txt => {
     let cardExplanation = cardExplanationTemplate.querySelector('.card__explanation').cloneNode(true);
@@ -19,16 +21,15 @@ const createExplanationElem = txt => {
 const createSentenceElem = txt => {
     let cardSentence = cardSentenceTemplate.querySelector('.card__sentence').cloneNode(true);
     cardSentence.textContent = txt;
-    cardSentence.addEventListener('click', evt => createStarred(evt.target.textContent));
+    cardSentence.addEventListener('click', evt => createStarred(evt.target.textContent.trim()));
     return cardSentence;
 }
+
 const createStarred = txt => {
     starredSentence = starredTemplate.querySelector('.starred__sentence').cloneNode(true);
     starredSentence.textContent = txt;
-    // starredSentence = starredSentence.textContent.replace(/(\r\n|\n|\r)/gm, "");
-    newBr = document.createElement('br');
-    starredSentence.appendChild(newBr);
     addStarred(starredSentence); //! разделить на разные функции по 1 действию
+    starredContainer.insertAdjacentHTML('beforeend', '<br>');
 };
 
 const header = document.querySelector('header');
@@ -38,10 +39,6 @@ const addListElem = elem => cardList.append(elem);
 const addStarred = sentence => starredContainer.append(sentence);
 const readTextCardsFile = file => {
     let cardTitle = document.querySelector('.card__title') !== null;
-    console.log(file[0])
-
-    // file = " \n" + file;
-    console.log(file[0])
     for (let line = 0; line <= file.length; line++) {
         // if current line empty line
         if (!file[line] || !file[line].length) {
@@ -65,6 +62,11 @@ const readTextCardsFile = file => {
         } else if (file[line][0]) {
             cardTitle = cardElem.querySelector('.card__title');
             cardTitle.textContent = file[line];
+            cardTitle.addEventListener('click', evt => {
+                list = evt.target.closest('.card').querySelectorAll('.card__sentence');
+                countSentences += list.length;
+                starredCount.textContent = `You have worked through ${countSentences} sentences in today's lesson`
+            });
         };
         textarea.scrollTo(0, 0);
         window.scrollTo(0, 0);
@@ -98,19 +100,12 @@ btnReadText.addEventListener('click', () => {
 );
 
 const showColors = evt => {
-    console.log(evt.keyCode);
     let color = document.getElementById('col');
-    console.log(color);
     if (evt.keyCode === 96) {
-        console.log('1');
-        console.log(color.style.display);
         colorCSS = window.getComputedStyle(color, null).getPropertyValue("display");
-        console.log(colorCSS);
         if (colorCSS === "none") {
-            console.log('2');
             color.style.display = 'flex';
         } else if (color.style.display === "flex") {
-            console.log('3');
             color.style.display = 'none';
         };
     }

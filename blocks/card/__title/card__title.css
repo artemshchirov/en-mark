@@ -1,4 +1,11 @@
 .card__title {
     margin: 0;
     font-size: 25px;
+    cursor: pointer;
+    opacity: 1;
+    transition: opacity .1s;
+}
+
+.card__title:hover {
+    opacity: .8;
 }

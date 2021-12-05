@@ -18,6 +18,7 @@
 @import url(../blocks/starred/starred.css);
 @import url(../blocks/starred/__container/starred__container.css);
 @import url(../blocks/starred/__sentence/starred__sentence.css);
+@import url(../blocks/starred/__count/starred__count.css);
 /* cards */
 @import url(../blocks/cards/cards.css);
 @import url(../blocks/card/card.css);
