@@ -2,7 +2,7 @@ const input = document.getElementById('load-file__input_id');
 const textarea = document.getElementById('load-file__textarea_id');
 let cards = document.querySelector('.cards');
 const starredCount = document.querySelector('.starred__count');
-const starredContainer = document.querySelector('.starred__container');
+const starredList = document.querySelector('.starred__list');
 const starredTemplate = document.querySelector('#starred-template').content;
 const cardTemplate = document.querySelector('#card-template').content;
 const cardExplanationTemplate = document.querySelector('#card-explanation').content;
@@ -29,23 +29,30 @@ const createStarred = txt => {
     starredSentence = starredTemplate.querySelector('.starred__sentence').cloneNode(true);
     starredSentence.textContent = txt;
     addStarred(starredSentence); //! разделить на разные функции по 1 действию
-    starredContainer.insertAdjacentHTML('beforeend', '<br>');
+    starredList.insertAdjacentHTML('beforeend', '<br>');
 };
 
 const header = document.querySelector('header');
 
 const addCardElem = elem => cardElem.append(elem);
 const addListElem = elem => cardList.append(elem);
-const addStarred = sentence => starredContainer.append(sentence);
+const addStarred = sentence => starredList.append(sentence);
+
+const cardsCount = [];
+
 const readTextCardsFile = file => {
     let cardTitle = document.querySelector('.card__title') !== null;
+
+    // console.log(cards);
     for (let line = 0; line <= file.length; line++) {
         // if current line empty line
         if (!file[line] || !file[line].length) {
 
             if (typeof file[line] === "undefined") break;
-            if (cardTitle.textContent) cards.append(cardElem);
-
+            if (cardTitle.textContent) {
+                let countS = cardElem.querySelectorAll('.card__sentence').length;
+                cardsCount.push({name: cardTitle.textContent, num: countS});
+                cards.append(cardElem)};
             cardElem = cardTemplate.querySelector('.card').cloneNode(true);
             // if current line sentence
         } else if (file[line].slice(0, 4) === '    ') {
@@ -53,25 +60,49 @@ const readTextCardsFile = file => {
             // if next line not sentence or empty string
             if ((file[line + 1].slice(0, 2) === '  ' && file[line + 1].slice(2, 5) !== '  ') || !file[line + 1] || !file[line + 1].length) {
                 addCardElem(cardList);
-            }
+            };
             // if current line explanation
         } else if (file[line].slice(0, 2) === '  ') {
             cardList = cardListTemplate.querySelector('.card__list').cloneNode(true);
             addCardElem(createExplanationElem(file[line]));
             // else current line title word
-        } else if (file[line][0]) {
+        } else if (file[line][0] && !file[line].includes('_')) {
             cardTitle = cardElem.querySelector('.card__title');
             cardTitle.textContent = file[line];
-            cardTitle.addEventListener('click', evt => {
-                list = evt.target.closest('.card').querySelectorAll('.card__sentence');
-                countSentences += list.length;
-                starredCount.textContent = `You have worked through ${countSentences} sentences in today's lesson`
+            cardTitle.addEventListener('click', evt => { 
+                console.log('evt.target', evt.target.textContent);
+                const allCards = Array.from(cardsCount);
+                console.log(allCards);
+                i = 0;
+                j = 0;
+                pos = allCards.map(function (evt) { 
+                    return evt.name; 
+                });
+                // console.log(pos);
+                // console.log('pos.indexOf(evt.target.textContent)', pos.indexOf(evt.target.textContent));
+                pos = pos.indexOf(evt.target.textContent);
+
+                console.log('pos', pos, 'evt.target.textContent', evt.target.textContent);
+                while (i <= pos) {
+                    j += cardsCount[i].num;
+                    console.log('cardsCount[i].name', cardsCount[i].name, 'i', i, 'j', j);
+                    console.log('cardsCount[i].num', cardsCount[i].num);
+                    i++;
+                };
+                console.log(j);
+                starredCount.textContent = `You have worked through ${j} sentences in today's lesson`;
             });
         };
+        // console.log(cardsCount.length);
         textarea.scrollTo(0, 0);
         window.scrollTo(0, 0);
+
+        // console.log(allCards);
+        // console.log(allCards.map(function (e) { return e.name; }).indexOf(cardTitle.textContent));
+
     };
-}
+};
+
 input.addEventListener('change', () => {
     const files = input.files;
     if (files.length == 0) return;

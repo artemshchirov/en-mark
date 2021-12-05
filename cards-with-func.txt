@@ -6,6 +6,7 @@ cost(noun)
     They advanced a few hundred metres, but at a heavy cost in life.
     He worked non-stop for three months, at considerable cost to his health.
     the terrible cost of the war in death and suffering
+get_examples_by_word("cost", "noun", "b1")
 
 rubbish(noun)
   something that you think is of poor quality
@@ -20,6 +21,7 @@ rubbish(noun)
     You're talking a load of rubbish.
     Then we were told a lot of rubbish about 'leadership' and 'bonding'.
     It's not rubbish - it's true!
+get_examples_by_word("rubbish", "noun", "b1")
 
 paper(noun)
   an academic article about a particular subject that is written by and for specialists
@@ -28,6 +30,7 @@ paper(noun)
     He had prepared a briefing paper for the board meeting.
     Some of the materials cited in this paper are no longer available online.
     She has presented papers at international conferences.
+get_examples_by_word("paper", "noun", "b1")
 
 entertainment(noun)
   films, music, etc. used to entertain people; an example of this
@@ -36,3 +39,5 @@ entertainment(noun)
     There will be live entertainment at the party.
     It was not something you would watch for light entertainment.
     radio, television and other forms of entertainment
+get_examples_by_word("entertainment", "noun", "b1")
+
